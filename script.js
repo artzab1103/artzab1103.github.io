@@ -9,7 +9,7 @@ $.getJSON(url, function(r) {
  } 
 var pl = '';
  if(r.players.sample.length > 0 ){ pl = '<br>OP: '+r.players.sample[0].name;  } 
-  $('#rest').html(r.description.replace(/§(.+?)/gi, '')+'<br><b>На серевре играют игроков:</b> '+r.players.online+pl);
+  $('#rest').html(r.description.replace(/§(.+?)/gi, '')+'<br><b>Онлайн:</b> '+r.players.online+pl);
  $('#favicon').attr('src', r.favicon);
     
 });
