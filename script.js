@@ -1,8 +1,8 @@
-//based on a pen by @robinselmer
+//Тут как раз пинг серва идёт
 var url = "https://api.minetools.eu/ping/176.37.35.75/20194";
  
 $.getJSON(url, function(r) {
-    //data is the JSON string
+    //при случае ошыбки, отображение онлайна и последнего зашовшого
  if(r.error){
     $('#rest').html('Невозможно подключится к серверу');
    return false;
