@@ -1,5 +1,5 @@
 //гандон 100 раз айпи меняет
-var url = "https://api.minetools.eu/ping/176.37.35.75/20194";
+var url = "https://api.minetools.eu/ping/93.73.45.198/20194";
  
 $.getJSON(url, function(r) {
     //при случае ошыбки, отображение онлайна и последнего зашовшого
